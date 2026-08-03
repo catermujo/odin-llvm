@@ -1,0 +1,5 @@
+/darwin_*/*.dylib filter=lfs diff=lfs merge=lfs -text
+/linux_*/*.so filter=lfs diff=lfs merge=lfs -text
+/linux_*/*.so.* filter=lfs diff=lfs merge=lfs -text
+/windows_*/*.dll filter=lfs diff=lfs merge=lfs -text
+/windows_*/*.lib filter=lfs diff=lfs merge=lfs -text
